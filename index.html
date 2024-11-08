@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Age calculator app</title>
+
+
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+  <section>
+    <div class="input-container ">
+      <div class="day">
+        <h4>Day</h4>
+        <input id="day" type="number" placeholder="DD">
+        <p class="day-error">Must be a valid day</p>
+      </div>
+
+      <div class="month">
+        <h4>month</h4>
+        <input id="month" type="number" placeholder="MM">
+        <p class="month-error">Must be a valid Month</p>
+      </div>
+
+      <div class="year">
+        <h4>year</h4>
+        <input id="year" type="number" placeholder="YYYY">
+        <p class="year-error">Must be in the past</p>
+      </div>
+    </div>
+
+
+
+    <div class="line-image">
+      <hr />
+
+      <img id="temp-button" src="assets/images/icon-arrow.svg" alt="">
+    </div>
+    </div>
+
+
+    <div class="ymd">
+      <h1><span class="year-age">--</span> years </h1>
+      <h1><span class="month-age">--</span> months </h1>
+      <h1><span class="day-age">--</span> days </h1>
+
+    </div>
+  </section>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n"
+      target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/Aarif195/fylo-data-storage-component">Aarif</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
